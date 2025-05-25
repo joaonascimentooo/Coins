@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
+
+  const name = "Matheus"
   return (
     <div className="App">
       <h1>Ola React</h1>
-      <p>Meu primeiro app</p>
+      <p>Ola {name}</p>
+      <HelloWorld />
     </div>
   );
 }
