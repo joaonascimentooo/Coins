@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Frase from './components/Frase';
+import List from './components/List';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <SayMyName nome="João"/>
       <SayMyName nome="Manuel"/>
       <SayMyName nome={name}/>
+      <List/>
     </div>
   );
 }
