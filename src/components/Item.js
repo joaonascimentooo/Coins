@@ -8,11 +8,6 @@ function Item({marca, ano_lancamento}){
     )
 }
 
-Item.defaultProps = {
-    marca: 'Faltou a marca',
-    ano_lancamento: 0,
-}
-
 Item.propTypes = {
     marca : PropTypes.string,
     ano_lancamento : PropTypes.number,
