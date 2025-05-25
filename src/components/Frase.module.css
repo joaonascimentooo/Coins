@@ -1,0 +1,10 @@
+.fraseContainer{
+    background-color: coral;
+    border: 1px solid navy;
+}
+
+.fraseContent{
+    color: cadetblue;
+    background-color: black;
+    margin: 0;
+}
